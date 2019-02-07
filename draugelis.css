@@ -1,0 +1,121 @@
+/* 
+    Document   : draugelis.css
+    Created on : 2013-08-27, 22.16.49
+    Author     : Raimundas
+    Description:
+        Draugelis stilius.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Calibri,Helvetica,Ariel;   
+    font-size: medium;
+    background-color: white;
+    min-width: 480px;
+    max-width: 960px;
+}
+
+.logo {
+    float:left;
+    margin-left:40px;
+}
+
+header{
+    background-color: white;
+    padding: 0 5%;
+
+}
+
+article {
+    float:left;   
+    background-color: #009933;
+    box-shadow: 3px 3px 3px #888;
+    height: 195px;
+    width: 410px;
+    margin: 5px;
+    padding: 5px;
+    color:white;
+}
+
+article.red {
+    background-color: #660000;
+}
+
+article.blue {
+    background-color: #003366;
+}
+
+article.green {
+    background-color: #006633;
+}
+
+article.yellow {
+    background-color: #999900;
+}
+
+article.small {
+    width: 195px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    clear: both;	
+    height: 50px;	
+    background-color: #009933;
+    border-radius: 50px 1px;  
+    box-shadow: 3px 3px 3px #888;
+    background: linear-gradient(to bottom, #009933,black);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li.current{
+    background-color:  darkslategrey;
+    background: linear-gradient(to bottom, darkslategrey,black);
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 19px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+    color: white;
+    text-shadow: 0 1px 0 green;
+}
+
+nav ul li a:hover{
+    background-color: black;
+}
+
+.language{
+    float:right;    
+    margin-top: 15px;
+    padding: 5px;
+    
+    background-color: whitesmoke;
+    box-shadow: 3px -3px 3px #888;
+}
+
+.content{
+    margin:1% 5%;
+}
